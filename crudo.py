@@ -11,7 +11,7 @@ tickerSymbol = 'CL=F'
 #obtener datos
 tickerData = yf.Ticker(tickerSymbol)
 #obtener precios historicos
-tickerDf = tickerData.history(period='1d', start='2019-1-1', end='2023-4-3')
+tickerDf = tickerData.history(period='1d', start='2019-1-1', end='2023-4-4')
 
 
 st.write("""
