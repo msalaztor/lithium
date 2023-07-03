@@ -1,3 +1,3 @@
 # crudo
-precio del barril de crudo
+precio de Global X Lithium & Battery Tech ETF
 Para deploy en Streamlit
