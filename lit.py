@@ -2,7 +2,7 @@ import yfinance as yf
 import streamlit as st
 
 st.write("""
-# Edukatiba
+# MS
 Aqui se muestra el precio **De cierre** De LIT Global X Lithium & Battery Tech ETF
 """)
 
