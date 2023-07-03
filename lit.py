@@ -3,15 +3,15 @@ import streamlit as st
 
 st.write("""
 # Edukatiba
-Aqui se muestra el precio **De cierre** Del Barril de Crudo!
+Aqui se muestra el precio **De cierre** De LIT Global X Lithium & Battery Tech ETF
 """)
 
 #definir el ticker
-tickerSymbol = 'CL=F'
+tickerSymbol = 'LIT'
 #obtener datos
 tickerData = yf.Ticker(tickerSymbol)
 #obtener precios historicos
-tickerDf = tickerData.history(period='1d', start='2019-1-1', end='2023-4-4')
+tickerDf = tickerData.history(period='1d', start='2019-12-30', end='2023-6-30')
 
 
 st.write("""
